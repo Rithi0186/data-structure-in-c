@@ -1,12 +1,12 @@
-// Online C compiler to run C program online
+
 #include <stdio.h>
-#define n 10
+#define N 10
 void push();
 void pop();
 void peek();
 void display();
- int stack[n];
-   int top=-1;
+ int stack[N];
+ int top=-1;
 void main() {
    
     int ch;
@@ -35,7 +35,7 @@ void push(){
     int x;
     printf("enter a stack element:\n");
     scanf("%d",&x);
-    if(top==n-1){
+    if(top==N-1){
         printf("overflow\n");
         
     }
